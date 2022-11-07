@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+header h1 {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+
+
+.dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dots span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 5px green;
+}
